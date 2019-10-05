@@ -167,6 +167,7 @@ module.exports = function(formio, items, done) {
         {
           name: 'install',
           description: 'Are you sure you wish to install? (y/N)',
+          default: 'y',
           required: true
         }
       ], function(err, results) {
@@ -204,7 +205,7 @@ module.exports = function(formio, items, done) {
         {
           name: 'app',
           description: 'GitHub repository or selection?',
-          default: '1',
+          default: '5',
           required: true
         }
       ], function(err, results) {
